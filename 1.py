@@ -81,7 +81,7 @@ def deletedata():
             delete()        
     else:
         print("Tidak ada data dengan nim tersebut")
-        edit() 
+        delete() 
 def delete():
     print('''======= Menghapus Data Siswa =======
 
@@ -97,7 +97,7 @@ def delete():
         menu()
     else :
         print('*** Pilihan yang anda masukkan salah ***')
-        edit()
+        delete()
 
 #Fungsi CREATE/ADD
 def adding():
